@@ -1,0 +1,179 @@
+Test Run 1:
+Assume a 128-byte, direct-mapped cache with 8-byte cache lines (cache blocks).
+
+ 0 tag / 0 index# /address(0) Miss
+ 0 tag / 0 index# /address(4) Hit
+ 0 tag / 1 index# /address(8) Miss
+ 0 tag / 1 index# /address(12) Hit
+ 0 tag / 2 index# /address(16) Miss
+ 0 tag / 2 index# /address(20) Hit
+ 0 tag / 3 index# /address(24) Miss
+ 0 tag / 3 index# /address(28) Hit
+ 0 tag / 4 index# /address(32) Miss
+ 0 tag / 4 index# /address(36) Hit
+ 0 tag / 5 index# /address(40) Miss
+ 0 tag / 5 index# /address(44) Hit
+ 0 tag / 6 index# /address(48) Miss
+ 0 tag / 6 index# /address(52) Hit
+ 0 tag / 7 index# /address(56) Miss
+ 0 tag / 7 index# /address(60) Hit
+ 0 tag / 8 index# /address(64) Miss
+ 0 tag / 8 index# /address(68) Hit
+ 0 tag / 9 index# /address(72) Miss
+ 0 tag / 9 index# /address(76) Hit
+ 0 tag / 10 index# /address(80) Miss
+ 0 tag / 0 index# /address(0) Hit
+ 0 tag / 0 index# /address(4) Hit
+ 0 tag / 1 index# /address(8) Hit
+ 0 tag / 1 index# /address(12) Hit
+ 0 tag / 2 index# /address(16) Hit
+ 0 tag / 8 index# /address(71) Hit
+ 0 tag / 0 index# /address(3) Hit
+ 0 tag / 5 index# /address(41) Hit
+ 0 tag / 10 index# /address(81) Hit
+ 0 tag / 4 index# /address(39) Hit
+ 0 tag / 4 index# /address(38) Hit
+ 0 tag / 8 index# /address(71) Hit
+ 0 tag / 1 index# /address(15) Hit
+ 0 tag / 4 index# /address(39) Hit
+ 0 tag / 1 index# /address(11) Hit
+ 0 tag / 6 index# /address(51) Hit
+ 0 tag / 7 index# /address(57) Hit
+ 0 tag / 5 index# /address(41) Hit
+
+
+Test Run 2:
+Assume a 64-byte, 2-way set associative cache with 8-byte cache lines (cache blocks).
+
+ 0 tag / 0 index# /address(0) Miss
+ 0 tag / 0 index# /address(4) Hit
+ 0 tag / 1 index# /address(8) Miss
+ 0 tag / 1 index# /address(12) Hit
+ 0 tag / 2 index# /address(16) Miss
+ 0 tag / 2 index# /address(20) Hit
+ 0 tag / 3 index# /address(24) Miss
+ 0 tag / 3 index# /address(28) Hit
+ 1 tag / 0 index# /address(32) Miss
+ 1 tag / 0 index# /address(36) Hit
+ 1 tag / 1 index# /address(40) Miss
+ 1 tag / 1 index# /address(44) Hit
+ 1 tag / 2 index# /address(48) Miss
+ 1 tag / 2 index# /address(52) Hit
+ 1 tag / 3 index# /address(56) Miss
+ 1 tag / 3 index# /address(60) Hit
+ 2 tag / 0 index# /address(64) Miss
+ 2 tag / 0 index# /address(68) Hit
+ 2 tag / 1 index# /address(72) Miss
+ 2 tag / 1 index# /address(76) Hit
+ 2 tag / 2 index# /address(80) Miss
+ 0 tag / 0 index# /address(0) Miss
+ 0 tag / 0 index# /address(4) Hit
+ 0 tag / 1 index# /address(8) Miss
+ 0 tag / 1 index# /address(12) Hit
+ 0 tag / 2 index# /address(16) Miss
+ 2 tag / 0 index# /address(71) Hit
+ 0 tag / 0 index# /address(3) Hit
+ 1 tag / 1 index# /address(41) Miss
+ 2 tag / 2 index# /address(81) Hit
+ 1 tag / 0 index# /address(39) Miss
+ 1 tag / 0 index# /address(38) Hit
+ 2 tag / 0 index# /address(71) Miss
+ 0 tag / 1 index# /address(15) Hit
+ 1 tag / 0 index# /address(39) Hit
+ 0 tag / 1 index# /address(11) Hit
+ 1 tag / 2 index# /address(51) Miss
+ 1 tag / 3 index# /address(57) Hit
+ 1 tag / 1 index# /address(41) Hit
+
+
+
+Test Run 3:
+Assume a 128-byte, direct-mapped cache with 16-byte cache lines (cache blocks).
+
+ 0 tag / 0 index# /address(0) Miss
+ 0 tag / 0 index# /address(4) Hit
+ 0 tag / 0 index# /address(8) Hit
+ 0 tag / 0 index# /address(12) Hit
+ 0 tag / 1 index# /address(16) Miss
+ 0 tag / 1 index# /address(20) Hit
+ 0 tag / 1 index# /address(24) Hit
+ 0 tag / 1 index# /address(28) Hit
+ 0 tag / 2 index# /address(32) Miss
+ 0 tag / 2 index# /address(36) Hit
+ 0 tag / 2 index# /address(40) Hit
+ 0 tag / 2 index# /address(44) Hit
+ 0 tag / 3 index# /address(48) Miss
+ 0 tag / 3 index# /address(52) Hit
+ 0 tag / 3 index# /address(56) Hit
+ 0 tag / 3 index# /address(60) Hit
+ 0 tag / 4 index# /address(64) Miss
+ 0 tag / 4 index# /address(68) Hit
+ 0 tag / 4 index# /address(72) Hit
+ 0 tag / 4 index# /address(76) Hit
+ 0 tag / 5 index# /address(80) Miss
+ 0 tag / 0 index# /address(0) Hit
+ 0 tag / 0 index# /address(4) Hit
+ 0 tag / 0 index# /address(8) Hit
+ 0 tag / 0 index# /address(12) Hit
+ 0 tag / 1 index# /address(16) Hit
+ 0 tag / 4 index# /address(71) Hit
+ 0 tag / 0 index# /address(3) Hit
+ 0 tag / 2 index# /address(41) Hit
+ 0 tag / 5 index# /address(81) Hit
+ 0 tag / 2 index# /address(39) Hit
+ 0 tag / 2 index# /address(38) Hit
+ 0 tag / 4 index# /address(71) Hit
+ 0 tag / 0 index# /address(15) Hit
+ 0 tag / 2 index# /address(39) Hit
+ 0 tag / 0 index# /address(11) Hit
+ 0 tag / 3 index# /address(51) Hit
+ 0 tag / 3 index# /address(57) Hit
+ 0 tag / 2 index# /address(41) Hit
+
+
+
+Test Run 4:
+Assume a 64-byte, fully associative cache with 8-byte cache lines (cache blocks).
+
+ 0 tag / 0 index# /address(0) Miss
+ 0 tag / 0 index# /address(4) Hit
+ 1 tag / 0 index# /address(8) Miss
+ 1 tag / 0 index# /address(12) Hit
+ 2 tag / 0 index# /address(16) Miss
+ 2 tag / 0 index# /address(20) Hit
+ 3 tag / 0 index# /address(24) Miss
+ 3 tag / 0 index# /address(28) Hit
+ 4 tag / 0 index# /address(32) Miss
+ 4 tag / 0 index# /address(36) Hit
+ 5 tag / 0 index# /address(40) Miss
+ 5 tag / 0 index# /address(44) Hit
+ 6 tag / 0 index# /address(48) Miss
+ 6 tag / 0 index# /address(52) Hit
+ 7 tag / 0 index# /address(56) Miss
+ 7 tag / 0 index# /address(60) Hit
+ 8 tag / 0 index# /address(64) Miss
+ 8 tag / 0 index# /address(68) Hit
+ 9 tag / 0 index# /address(72) Miss
+ 9 tag / 0 index# /address(76) Hit
+ 10 tag / 0 index# /address(80) Miss
+ 0 tag / 0 index# /address(0) Miss
+ 0 tag / 0 index# /address(4) Hit
+ 1 tag / 0 index# /address(8) Miss
+ 1 tag / 0 index# /address(12) Hit
+ 2 tag / 0 index# /address(16) Miss
+ 8 tag / 0 index# /address(71) Hit
+ 0 tag / 0 index# /address(3) Hit
+ 5 tag / 0 index# /address(41) Miss
+ 10 tag / 0 index# /address(81) Hit
+ 4 tag / 0 index# /address(39) Miss
+ 4 tag / 0 index# /address(38) Hit
+ 8 tag / 0 index# /address(71) Hit
+ 1 tag / 0 index# /address(15) Hit
+ 4 tag / 0 index# /address(39) Hit
+ 1 tag / 0 index# /address(11) Hit
+ 6 tag / 0 index# /address(51) Miss
+ 7 tag / 0 index# /address(57) Miss
+ 5 tag / 0 index# /address(41) Hit
+
+
+
